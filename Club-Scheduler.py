@@ -26,6 +26,11 @@ from datetime import date
 
 import gspread
 # keys here
+sa = gspread.service_account(filename="")
+sh = sa.open("")
+wks = sh.worksheet("")
+wks2 = sh.worksheet("")
+wks2ID = ""
 
 
 
